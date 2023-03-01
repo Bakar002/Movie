@@ -1,3 +1,8 @@
-import { createFactory } from "react";
+import React from 'react'
 
-createFactory
+export default function Moviesdetail() {
+  return (
+    <div>Moviesdetail</div>
+  )
+}
+ 
