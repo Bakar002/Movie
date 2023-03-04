@@ -12,12 +12,13 @@ function App() {
     <div className="app">
      <BrowserRouter>
      <Header/>
+     <div className="container"style={{color:'white'}}>
       <Routes>
          
             <Route path="/" element={<Home />} />
         <Route path="/movie/:imdbID" element={<Moviesdetail/>} />
         <Route path="*" element={<Pagenotfound/>} />
-        </Routes>
+        </Routes></div>
         <Footer />
        
     </BrowserRouter>
